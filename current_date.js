@@ -1,3 +1,6 @@
+console.log("hello world")
+
+
 // Date object
 var today = new Date();
 
