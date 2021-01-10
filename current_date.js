@@ -13,3 +13,7 @@ var string = document.lastModified;
 alert(document.lastModified);
 
 document.getElementById("currentDate").innerHTML = date;
+
+function myFunction() {
+    alert("Hello! I am an alert box!");
+  }
