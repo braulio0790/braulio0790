@@ -11,3 +11,5 @@ var string = document.lastModified;
 
 //alert
 alert(document.lastModified);
+
+document.getElementById("currentDate").innerHTML = date;
