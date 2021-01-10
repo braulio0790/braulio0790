@@ -1,4 +1,10 @@
+body{
+    margin: 0;
+}
 
+a{
+    color: white;
+}
 
 h1{
     color:red;
@@ -20,4 +26,5 @@ header{
 
 footer{
     background-color:#2f363d;
+    color: white;
 }
