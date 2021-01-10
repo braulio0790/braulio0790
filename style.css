@@ -51,8 +51,13 @@ header{
 footer{
     background-color:#2f363d;
     color: white;
+    padding: 1em;
 }
 
 .footerContainer{
+    padding: 1em;
+}
+
+#currentDate{
     padding: 1em;
 }
