@@ -1,5 +1,6 @@
 body{
     margin: 0;
+    font-family: 'Roboto', sans-serif;
 }
 
 a{
@@ -7,24 +8,51 @@ a{
 }
 
 h1{
-    color:red;
+    color:white;
+    margin: 0;
+    padding: 1em; 
+    text-align: center;
+}
+
+h2{
+    text-align: center;
 }
 
 img{
-    width:175px;
+    width:150px;
     height:205px;
+}
+
+.imgContainer{
+    text-align: center;
+    margin: 1em 0 0 0;
+}
+
+ul{
+    text-align: center;
+    padding: 1em 0 1em 0;
+}
+
+li{
+    padding: 0 0 1em 0;
 }
 
 .mainWrapper{
     width: 900px;
     margin: 0 auto;
+    background-color: #d1d5da;
 }
 
 header{
     background-color:#2f363d;
+
 }
 
 footer{
     background-color:#2f363d;
     color: white;
+}
+
+.footerContainer{
+    padding: 1em;
 }
