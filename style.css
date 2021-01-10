@@ -1,6 +1,4 @@
-.mainWrapper{
-    width: 900px;
-}
+
 
 h1{
     color:red;
@@ -9,4 +7,17 @@ h1{
 img{
     width:175px;
     height:205px;
+}
+
+.mainWrapper{
+    width: 900px;
+    margin: 0 auto;
+}
+
+header{
+    background-color:#2f363d;
+}
+
+footer{
+    background-color:#2f363d;
 }
