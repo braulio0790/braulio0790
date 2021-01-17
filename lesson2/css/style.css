@@ -54,6 +54,7 @@ header h2, header h1{
     max-width: 65%;
     margin: 0 auto;
     padding: 1em 0 1em 0;
+    background-color: #d1d5da;
 }
 
 footer a{
