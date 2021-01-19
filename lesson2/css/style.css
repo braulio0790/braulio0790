@@ -70,3 +70,56 @@ footer a{
     margin: 2em;
     color:white;
 }
+
+
+@media (max-width: 900px) {
+    .content_wrapper{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .container1{
+        grid-column: 1/2;
+        text-align: center;
+        padding: 2em 0 2em 0;
+    }
+       
+    
+    .container2{
+        grid-column: 2/3;
+        text-align: center;
+        padding: 2em 0 2em 0;
+    }
+    
+    .container3{
+        grid-column: 1/2;
+        text-align: center;
+        padding: 2em 0 2em 0;
+    }
+  }
+
+  @media (max-width: 600px) {
+    .content_wrapper{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    
+    .container1{
+        grid-column: 1/1;
+        text-align: center;
+        padding: 2em 0 2em 0;
+    }
+       
+    
+    .container2{
+        grid-column: 1/1;
+        text-align: center;
+        padding: 2em 0 2em 0;
+    }
+    
+    .container3{
+        grid-column: 1/1;
+        text-align: center;
+        padding: 2em 0 2em 0;
+    }
+  }
