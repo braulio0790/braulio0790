@@ -14,9 +14,12 @@ header h1, header h2{
     text-align: center;
 }
 
+img{
+    width: 170px;
+}
 
 .imgContainer{
-    margin: 1em 0 1em 0;
+    padding: 1em 0 1em 0;
 }
 
 ul{
@@ -99,7 +102,11 @@ footer{
     padding: 1em 0 0 1em;
 }
 
+/* style for the target audience page*/
 
+.pageTitle{
+    padding: 0 0 1em 0;
+}
 
 @media (max-width: 600px) {
 
