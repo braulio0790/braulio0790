@@ -117,7 +117,18 @@ footer{
 
 /* style for the typography style page*/
 
+.fontWrapper h3{
+    padding: 1em 0 0 0;
+}
 
+.fontWrapper h4{
+    font-family: 'Roboto', sans-serif;
+    padding: 1em 0 0 0;
+}
+
+.fontWrapper p{
+    font-family: 'Montserrat', sans-serif;
+}
 
 @media (max-width: 600px) {
 
