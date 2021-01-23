@@ -15,10 +15,11 @@ header h1, header h2{
 }
 
 img{
-    width: 170px;
+    width: 100%;
 }
 
 .imgContainer{
+    width: 170px;
     padding: 1em 0 1em 0;
 }
 
@@ -60,7 +61,7 @@ a {
 }
 
 header{
-    background-color:#2596be;
+    background-color: #2380b1;
 
 }
 
@@ -89,7 +90,7 @@ header{
 }
 
 footer{
-    background-color:#2596be;
+    background-color:#2380b1;
     color: white;
     padding: 1em;
 }
@@ -107,6 +108,16 @@ footer{
 .pageTitle{
     padding: 0 0 1em 0;
 }
+
+/* style for the target audience page*/
+
+
+/* style for the color scheme page*/
+
+
+/* style for the typography style page*/
+
+
 
 @media (max-width: 600px) {
 
