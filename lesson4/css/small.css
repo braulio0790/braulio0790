@@ -1,0 +1,24 @@
+@media (max-width: 600px) {
+
+  #display{
+      display: none;
+  }
+
+  .headerWidth{
+      text-align: center;
+  }
+  
+  button{
+      display: inline;
+  }
+    
+  .headerWidth ul li{
+    display: block;
+    padding: 1em 0 1em 0;
+   }
+
+   .headerWidth ul{
+    text-align: center;
+}
+
+}

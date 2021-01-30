@@ -1,0 +1,130 @@
+body{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+img{
+    width: 100%;
+}
+
+.imgContainer{
+    width: 170px;
+    padding: 1em 0 1em 0;
+}
+
+ul{
+    text-align: center;
+    padding: 1em 0 1em 0;
+}
+
+li{
+    padding: 0 0 1em 0;
+    list-style: none;
+}
+
+p{
+    font-family: 'Montserrat', sans-serif;
+    padding: 1em;
+    letter-spacing: 1px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: white;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: #f2d1a7;
+    text-decoration: underline;
+  }
+
+header{
+    background-color: #2380b1;
+}
+
+#logo, .textBesideLogo{
+    align-content: left;
+    display: inline-block;
+}
+
+.textBesideLogo h1, header h2{
+    color:white;
+    margin: 0;
+    padding: 1em 0 0 1em;
+}
+
+.wrapperHeader{
+    width: 70%;
+    margin: 0 auto;
+    padding: 1em;
+}
+
+.headerNavigation{
+    width: 100%;
+    background-color:#2f363d;
+}
+
+.headerWidth{
+    width: 70%;
+    margin: 0 auto;
+    padding: 1em;
+}
+
+button{
+    display: none;
+}
+
+
+.headerWidth ul{
+    list-style-type: none;
+    text-align: left;
+}
+
+.headerWidth ul li{
+	display: inline;
+	color: #fff;
+    padding: 0;
+    margin: 0 1em 0 0;
+	text-decoration: none;
+	font-size: 1em;
+}
+
+main{
+    max-width: 70%;
+    margin: 0 auto;
+    padding: 1em 0 1em 0;
+    background-color: #d1d5da;
+}
+
+footer{
+    background-color:#2380b1;
+    color: white;
+    padding: 1em;
+}
+
+footer a{
+    color: white;
+}
+
+
+.footerContainer{
+    padding: 1em;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.currentHourW{
+    width: 70%;
+    margin: 0 auto;
+}
+
+#currentHour{
+    padding: 1em 0 1em 0;
+}
+
+
