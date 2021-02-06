@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Assignment weather site for Braulio Garcia in WDD 230: Web Frontend Development at Brigham Young University - Idaho">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+  <link rel="stylesheet" href="css/large.css" />
+  <link rel="stylesheet" href="css/medium.css" />
+  <link rel="stylesheet" href="css/small.css" />
+  <script src="js/current_date.js"></script>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet"> 
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet"> 
+  <title>Course Portal Home Page - BG</title>
+</head>
+<body onload="getYear()">
+   <header>
+    <div class="wrapperHeader">
+      <div id="logo" class="imgContainer"><img src="img/sunnycloud_logo.PNG" alt="logo of the sunny cloud site"></div>
+      <div class="textBesideLogo">
+       <h1>The SunnyCloud Site</h1>
+       <h2>All the weather in one channel</h2>
+      </div>
+    </div>
+
+     <nav class="headerNavigation">
+      <div class="headerWidth">
+       <button onclick="toggleMenu()">&#9776</button>
+       <ul id="display">
+        <Li><a href="#">Home</a></Li>
+        <Li><a href="#">Preston</a></Li>
+        <Li><a href="#">Soda Springs</a></Li>
+        <Li><a href="#">Fish Haven</a></Li>
+        <Li><a href="#">Storm Center</a></Li>
+        <Li><a href="#">Gallery</a></Li>
+       </ul>
+      </div>
+    </nav>
+  
+  </header>
+  <main>
+    <div class="banner"><img src="img/banner.jpg" alt="logo of the sunny cloud site"></div>
+  <h3>Preston Idaho</h3>
+  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+    when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting,
+    remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+  </p>
+
+  <h3>Banner</h3>
+  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+    when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting,
+    remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+  </p>
+
+  <h3>Five Day Forecast</h3>
+  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+    when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting,
+    remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+  </p>
+
+  <h3>Article Title</h3>
+  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+    when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting,
+    remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+  </p>
+  </main> <!-- end of main -->
+
+
+  <footer>
+    <div class="footerContainer">
+      <a href="https://www.copyright.gov/help/faq/faq-general.html#:~:text=Copyright%2C%20a%20form%20of%20intellectual,%2C%20computer%20software%2C%20and%20architecture." target="_blank">&copy; <span id='yearC'></span></a>  &nbsp; | &nbsp;
+      <a href="https://www.linkedin.com/in/braulio-garc%C3%ADa-52785484/" target="_blank">Braulio Garcia</a>  &nbsp; | &nbsp;
+      <a href="https://guadalajara.gob.mx/" target="_blank">Guadalajara</a>  &nbsp; | &nbsp;
+      <a href="https://www.byui.edu/online" target="_blank">BYUi Online</a>  &nbsp; | &nbsp;
+    </div>
+    <div class="currentHourW"><span id="currentHour"></span></div>
+  </footer>
+</body>
+</html>  
