@@ -5,6 +5,7 @@ body{
 
 img{
     width: 100%;
+    height: 100%;
     margin: 0;
     padding: 0;
 }
@@ -36,7 +37,7 @@ a {
   }
   
   a:visited {
-    color: white;
+    color:white;
     text-decoration: none;
   }
   
@@ -44,6 +45,25 @@ a {
     color: #f2d1a7;
     text-decoration: underline;
   }
+
+#bar_message{
+    position: relative;
+    z-index: 1;
+    box-shadow: 0 10px 6px -6px black;
+    background-color: #F2D1A7;
+    display: none;
+}
+
+.bar_wrapper p{
+    margin: 0;
+    padding: 1em 1em 1em 0;
+    font-family: roboto;
+}
+
+.bar_wrapper{
+    width: 70%;
+    margin: 0 auto;
+}
 
 header{
     background-color: #2380b1;
@@ -106,7 +126,100 @@ main{
 .banner{
     margin: 0;
     padding: 0;
+    position: relative;
+}
 
+
+.text-block {
+    position: absolute;
+    top: 3em;
+    left: 20px;
+    background-color: black;
+    opacity: 0.5;
+    color: white;
+    padding: 2em;
+  }
+
+
+.forecast h3{
+    text-align: center;
+}
+
+.weekly_weather{
+    width: 600px;
+    margin: 0 auto;
+    border-collapse: collapse;
+    padding: 1em 0 2em 0;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+th{
+    width: 150px;
+    padding: 1em;
+    display: table-cell;
+    background-color: #2380b1;
+    border: 1px solid black;
+}
+
+td{
+    width: 20%;
+    padding: 1em;
+    background-color: white;
+    border: 1px solid black;
+    text-align: center;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.7);
+}
+
+.article{
+    background-color: #EAE2B7;
+    width: 100%;
+    display: flex;
+}
+
+.article p{
+    margin: 2em;
+    padding: 0;
+    flex: 1 0 60%;
+}
+
+.article_img{
+    width: 400px;
+    margin: 2em;
+    padding: 0;
+    object-fit: contain;
+    align-self: flex-start;
+}
+
+.location{
+    width: 100%;
+    overflow: hidden;
+    padding: 2em;
+}
+
+.map{
+    width:49%;
+    height: 300px;
+    display: inline-block;
+    margin: 2em 0 2em 0;
+ }
+
+.contact_info{
+    width: 49%;
+    height: 300px;
+    display: inline-block;
+    float: right;
+}
+
+.contact_info p{
+    margin: 2em;
+    padding: 0;
+}
+
+.social{
+    width: 50px;
 }
 
 footer{

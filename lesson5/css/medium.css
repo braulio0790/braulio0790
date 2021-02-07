@@ -1,8 +1,8 @@
 @media (max-width: 1000px) {
 
-  #display{
-      display: none;
-  }
+ .hide{
+        display: none;
+    }
 
   .headerWidth{
       text-align: center;

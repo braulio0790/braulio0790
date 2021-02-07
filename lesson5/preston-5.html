@@ -15,7 +15,8 @@
   <title>Course Portal Home Page - BG</title>
 </head>
 <body onload="getYear()">
-   <header>
+  <div id="bar_message"><div class="bar_wrapper"><p>Saturday = Preston Pancakes in the Park!  9:00 a.m. Saturday at the city park pavilion.</p></div></div> 
+  <header>
     <div class="wrapperHeader">
       <div id="logo" class="imgContainer"><img src="img/sunnycloud_logo.PNG" alt="logo of the sunny cloud site"></div>
       <div class="textBesideLogo">
@@ -27,7 +28,7 @@
      <nav class="headerNavigation">
       <div class="headerWidth">
        <button onclick="toggleMenu()">&#9776</button>
-       <ul id="display">
+       <ul id="display" class="hide">
         <Li><a href="#">Home</a></Li>
         <Li><a href="#">Preston</a></Li>
         <Li><a href="#">Soda Springs</a></Li>
@@ -40,30 +41,94 @@
   
   </header>
   <main>
-    <div class="banner"><img src="img/banner.jpg" alt="logo of the sunny cloud site"></div>
-  <h3>Preston Idaho</h3>
-  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-    when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting,
-    remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-  </p>
+    <div class="banner">
+      <img src="img/banner.jpg" alt="a picture of a land scape with people on bikes">
+      <div class="text-block">
+        <h3>Weather Summary</h3>
+        <p>
+          <strong>Currently:</strong> Sunny<br>
+          <strong>High:</strong> 76F°<br>
+          <strong>Wind Chill:</strong> "F<br>
+          <strong>Humidity:</strong> 69%<br>
+          <strong>Wind Speed:</strong> 5mph<br>
+        </p>
+      </div>
+    </div>
 
-  <h3>Banner</h3>
-  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-    when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting,
-    remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-  </p>
+    <section class="forecast">
+      <h3>Forecast</h3>
+      <div class="weekly_weather">     
+        <table>
+            <tbody><tr>
+                <th>
+                   Wed
+                </th>
+                <th>
+                    Thu
+                </th>
+                <th>
+                    Fry
+                </th>
+                <th>
+                    Sat
+                </th>
+                <th>
+                    Sun
+                </th>
+            </tr>
+            <tr>
+                <td>
+                    89°F
+                </td>
+                <td>
+                    91°F
+                </td>
+                <td>
+                    87°F
+                </td>
+                <td>
+                    93°F
+                </td>
+                <td>
+                    90°F
+                </td>
+            </tr>
+        </tbody></table>  
+    </div>
+    </section>
 
-  <h3>Five Day Forecast</h3>
-  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-    when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting,
-    remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-  </p>
+    <section class="article">
+      
+      <p><strong>What are greenhouse gases?</strong><br>
+        by BBC.com<br><br>
+        The greenhouse gas with the greatest impact on warming is water vapour. But it remains in the atmosphere for only a few days.
 
-  <h3>Article Title</h3>
-  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-    when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting,
-    remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-  </p>
+Carbon dioxide (CO2), however, persists for much longer. It would take hundreds of years for a return to pre-industrial levels and only so much can be soaked up by natural reservoirs such as the oceans.
+
+Most man-made emissions of CO2 come from burning fossil fuels. When carbon-absorbing forests are cut down and left to rot, or burned, that stored carbon is released, contributing to global warming.
+
+Since the Industrial Revolution began in about 1750, CO2 levels have risen more than 30%. The concentration of CO2 in the atmosphere is higher than at any time in at least 800,000 years.
+
+Other greenhouse gases such as methane and nitrous oxide are also released through human activities but they are less abundant than carbon dioxide.</p>
+        <div class="article_img"><img src="img/article.jpg" alt="article photo"></div>  
+    </section>
+
+    <section class="location">
+      <div class="map"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d640.962196957015!2d-103.33013398394375!3d20.707194159291447!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8428b1b41e9c49bf%3A0x64a39c21b57677e!2sLa%20Iglesia%20de%20Jesucristo%20de%20los%20Santos%20de%20los%20%C3%9Altimos%20D%C3%ADas!5e0!3m2!1ses-419!2smx!4v1612629297479!5m2!1ses-419!2smx" 
+        width="100%" height="100%" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+      </div>
+      <div class="contact_info">
+        <p>
+         Address: Monte Tabor #207, Col.Independencia, Guadalajara, Mexico<br><br>
+         Phone: 33-36-49-39-97<br><br>
+         Email: contactus@sunnycloud.com<br><br>
+        </p>
+        <div class="social"><img src="img/facebook.png" alt="facebook icon"></div>
+        <div class="social"><img src="img/twitter.png" alt="twitter icon"></div>
+      </div>
+    
+    </section>
+
   </main> <!-- end of main -->
 
 
