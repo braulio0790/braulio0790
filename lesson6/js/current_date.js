@@ -15,5 +15,3 @@ function toggleMenu () {
   document.getElementById('display').classList.toggle('hide');
 }
 
-
-
