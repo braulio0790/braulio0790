@@ -44,4 +44,11 @@ main{
     display: none;
 }
 
+
+/* style for the gallery page */
+figure{
+    width: 40%;
 }
+
+}
+

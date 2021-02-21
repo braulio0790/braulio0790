@@ -79,5 +79,11 @@ th, td{
     display: inline-block;
 }
 
+/* style for the gallery page */
+
+figure{
+    width: 100%;
+}
 
 }
+

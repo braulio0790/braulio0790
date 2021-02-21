@@ -275,3 +275,37 @@ footer a{
 }
 
 
+/* Syle for the gallery page */
+
+.wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 0 3em 0;
+}
+
+figure{
+    width: 20%;
+    flex: 1 1 auto;
+    justify-content: center;
+}
+
+figure img[data-src]{
+    display: inline-block;
+    filter: blur(0.2em);
+}
+
+figure img{
+    filter: blur(0px);
+    transition: filter 0.3s;
+}
+
+
+main h1{
+    margin: 0;
+    padding: 1em 0 1em 0;
+    text-align: center;
+}
+
+figure:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
