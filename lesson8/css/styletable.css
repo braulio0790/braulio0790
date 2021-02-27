@@ -1,6 +1,7 @@
 body{
     margin: 0;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: lighter;
 }
 
 footer a{
@@ -41,7 +42,7 @@ li{
 .mainWrapper{
     max-width: 900px;
     margin: 0 auto;
-    background-color: #536878;
+    background-color: #EBECF0;
 }
 
 header{
@@ -67,11 +68,13 @@ footer{
 
 main{
     padding: 3em;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 table{
     margin: 0 auto;
     border-collapse: collapse;
+    box-shadow: 10px 10px 10px #779bb2;
 }
 
 tbody tr:nth-child(odd) {
@@ -96,6 +99,7 @@ td, th {
     text-align: center;
     font-weight: bolder;
     font-size: 2em;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 .secondTitles th{
@@ -110,6 +114,7 @@ td, th {
 
 .especialOne{
     background-color:#628ca6;
+    color: white;
 }
 
 .tdFooter{
