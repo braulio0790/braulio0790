@@ -1,0 +1,118 @@
+body{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+footer a{
+    color: white;
+}
+
+h1{
+    color:white;
+    margin: 0;
+    padding: 1em;
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+}
+
+img{
+    width:150px;
+    height:205px;
+}
+
+.imgContainer{
+    text-align: center;
+    margin: 1em 0 0 0;
+}
+
+ul{
+    text-align: center;
+    padding: 1em 0 1em 0;
+}
+
+li{
+    padding: 0 0 1em 0;
+    list-style: none;
+}
+
+.mainWrapper{
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: #536878;
+}
+
+header{
+    background-color:#2f363d;
+
+}
+
+footer{
+    background-color:#2f363d;
+    color: white;
+    padding: 1em;
+}
+
+.footerContainer{
+    padding: 1em;
+}
+
+#currentHour{
+    padding: 1em 0 0 1em;
+}
+
+/* style for the form */
+
+main{
+    padding: 3em;
+}
+
+table{
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #e7f0ed;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #e7ffed;
+  }
+  
+
+td, th {
+    border: 1px solid #bbbbbb;
+    text-align: left;
+    padding: 8px;
+    text-align: center;
+  }
+
+
+.mainTitle th {
+    background-color: #7fb9c2;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 2em;
+}
+
+.secondTitles th{
+    background-color: #628ca6;
+    color:white;
+    font-weight: bold;
+}
+
+.secondTitles tr{
+    text-align: center;
+}
+
+.especialOne{
+    background-color:#628ca6;
+}
+
+.tdFooter{
+    background-color:#7fb9c2;
+    font-size: .8em;
+}
