@@ -1,0 +1,112 @@
+body{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+footer a{
+    color: white;
+}
+
+h1{
+    color:white;
+    margin: 0;
+    padding: 1em;
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+}
+
+img{
+    width:150px;
+    height:205px;
+}
+
+.imgContainer{
+    text-align: center;
+    margin: 1em 0 0 0;
+}
+
+ul{
+    text-align: center;
+    padding: 1em 0 1em 0;
+}
+
+li{
+    padding: 0 0 1em 0;
+    list-style: none;
+}
+
+.mainWrapper{
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: #d1d5da;
+}
+
+header{
+    background-color:#2f363d;
+
+}
+
+footer{
+    background-color:#2f363d;
+    color: white;
+    padding: 1em;
+}
+
+.footerContainer{
+    padding: 1em;
+}
+
+#currentHour{
+    padding: 1em 0 0 1em;
+}
+
+
+/* Style for the cards */
+
+.main{
+    padding: 1em;
+}
+
+main h2{
+    color:#4d4d96;
+    font-weight: bold;
+    font-family: 'Bree Serif', serif;
+}
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    align-content: space-between;
+    justify-content: space-between;
+}
+
+section{
+    width: 26%;
+    background-color: #aaa9c7;
+    text-align: center;  
+    padding: 1em;
+    margin: 1em;
+}
+
+section img{
+    box-shadow: 10px 0 15px black;
+    border-radius: 3px;
+}
+
+
+@media (max-width: 1000px) {
+
+    section{
+        width: 40%;
+}
+
+
+@media (max-width: 600px) {
+
+    section{
+        width: 100%;
+}
