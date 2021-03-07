@@ -250,3 +250,40 @@ footer a{
 }
 
 
+/* Home Page Style */
+
+.wrapperT{
+    height: 700px;
+    padding: 1em 0 1em 0;
+}
+
+.towns{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    align-content: space-between;
+    justify-content: space-between;
+    background-color: #EAE2B7;
+    padding: 1em 0 1em 0;
+}
+
+
+.towns section{
+    width: 27%;
+    height: 550px;
+    text-align: center;  
+    padding: 1em;
+    margin: 1em;
+    background-color: white;
+    box-shadow: 5px 0 10px black;
+}
+
+.towns section p{
+    font-size: 1em;
+    padding: .5em;
+}
+
+.towns section img{
+    width: 100%;
+    height: 300px;
+}

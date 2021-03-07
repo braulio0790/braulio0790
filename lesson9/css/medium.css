@@ -1,4 +1,16 @@
+@media (max-width: 1450px) {
+    .towns section{
+        width: 40%;
+    
+    }
+}
+
+
 @media (max-width: 1000px) {
+
+.banner{
+        margin: -16px;
+    }
 
  .hide{
         display: none;
