@@ -18,6 +18,11 @@ h2{
     text-align: center;
 }
 
+.prophetsI{
+    width:100%;
+    height:100%;
+}
+
 img{
     width:150px;
     height:205px;
@@ -95,6 +100,17 @@ section{
 section img{
     box-shadow: 10px 0 15px black;
     border-radius: 3px;
+}
+
+/* Wireframe style */
+
+.wrapperW{
+   width: 70%;
+   margin: 0 auto;
+}
+
+.container{
+  background-color: red;
 }
 
 
