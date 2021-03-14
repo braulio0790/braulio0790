@@ -186,14 +186,12 @@ th{
     width: 150px;
     padding: 1em;
     display: table-cell;
-    background-color: #2380b1;
     border: 1px solid black;
 }
 
 td{
     width: 20%;
     padding: 1em;
-    background-color: white;
     border: 1px solid black;
     text-align: center;
     box-shadow: 5px 5px 5px rgba(0,0,0,0.7);
@@ -274,4 +272,18 @@ footer a{
     padding: 1em 0 1em 0;
 }
 
+#icon1, #icon2, #icon3, #icon4, #icon5{
+    height: auto !important;
+}
 
+.headertable{
+    background-color: #2380b1 !important;
+}
+
+.footertable{
+    background-color: #2380b1 !important;
+}
+
+.table{
+    background-color: white;
+}
