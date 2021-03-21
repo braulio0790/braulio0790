@@ -10,13 +10,14 @@
   <link rel="stylesheet" href="css/small.css" />
   <script src="js/current_date.js"></script>
   <script src="js/top_bar.js"></script>
-  <script src="js/windchill.js"></script>
+  <script src="js/windchill_preston.js"></script>
+  <script src="js/events_preston.js"></script>
   <script src="js/mediaqueries.js"></script>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet"> 
   <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet"> 
-  <title>Course Portal Home Page - BG</title>
+  <title>Preston Page - BG</title>
 </head>
-<body onload="windChill(); hour(); getYear(); checkScreen(); forecast();">
+<body onload="windChill(); hour(); getYear(); checkScreen(); forecast(); events();">
   <div id="bar_message"><div class="bar_wrapper"><p>Saturday = Preston Pancakes in the Park!  9:00 a.m. Saturday at the city park pavilion.</p></div></div> 
   <header>
     <div class="wrapperHeader">
@@ -92,6 +93,16 @@
          </table>  
 
     </div>
+    </section>
+
+    <section class="events">
+      <div class="wrapperEvents">
+       <h3>Upcomming Events</h3>
+       <div id="event1"></div>
+       <div id="event2"></div>
+       <div id="event3"></div>
+       <div id="event4"></div>
+      </div>
     </section>
 
     <section class="article">
