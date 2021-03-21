@@ -174,82 +174,6 @@ td{
     box-shadow: 5px 5px 5px rgba(0,0,0,0.7);
 }
 
-.article{
-    background-color: #EAE2B7;
-    width: 100%;
-    display: flex;
-}
-
-.article p{
-    margin: 2em;
-    padding: 0;
-    flex: 1 0 60%;
-}
-
-.article_img{
-    width: 400px;
-    margin: 2em;
-    padding: 0;
-    object-fit: contain;
-    align-self: flex-start;
-}
-
-.location{
-    width: 100%;
-    overflow: hidden;
-    padding: 2em;
-}
-
-.map{
-    width:49%;
-    height: 300px;
-    display: inline-block;
-    margin: 2em 0 2em 0;
- }
-
-.contact_info{
-    width: 49%;
-    height: 300px;
-    display: inline-block;
-    float: right;
-}
-
-.contact_info p{
-    margin: 2em;
-    padding: 0;
-}
-
-.social{
-    width: 50px;
-}
-
-footer{
-    background-color:#2380b1;
-    color: white;
-    padding: 1em;
-}
-
-footer a{
-    color: white;
-}
-
-
-.footerContainer{
-    padding: 1em;
-    width: 70%;
-    margin: 0 auto;
-}
-
-.currentHourW{
-    width: 70%;
-    margin: 0 auto;
-}
-
-#currentHour{
-    padding: 1em 0 1em 0;
-}
-
-
 /* Home Page Style */
 
 .wrapperT{
@@ -488,8 +412,30 @@ td{
     box-shadow: 5px 5px 5px rgba(0,0,0,0.7);
 }
 
+.events{
+    background-color:#EAE2B7;
+    padding: 2em 2em 3em 2em;
+    text-align: center;
+}
+
+.wrapperEvents{
+    background-color: white;
+    width: 30%;
+    padding: 0 0 1em 0;
+    margin: 0 auto;
+}
+
+.events h3{
+    padding: 1em;
+}
+
+#event1,#event2,#event3,#event4{
+   padding: 1em;
+}
+
+/* home page continue */
 .article{
-    background-color: #EAE2B7;
+    background-color:;
     width: 100%;
     display: flex;
 }
@@ -509,27 +455,26 @@ td{
 }
 
 .location{
-    width: 100%;
     overflow: hidden;
     padding: 2em;
+    background-color:#EAE2B7;
 }
 
 .map{
-    width:49%;
+    width:45%;
     height: 300px;
     display: inline-block;
     margin: 2em 0 2em 0;
  }
 
 .contact_info{
-    width: 49%;
+    width: 45%;
     height: 300px;
     display: inline-block;
     float: right;
 }
 
 .contact_info p{
-    margin: 2em;
     padding: 0;
 }
 
@@ -537,6 +482,8 @@ td{
     width: 50px;
 }
 
+
+/* Footer */
 footer{
     background-color:#2380b1;
     color: white;
