@@ -2,7 +2,7 @@
   "business": [
     {
       "name": "Carnes Garibaldi",
-      "photo": "garibaldi_logo.jpg",
+      "photo": "garibaldi_logo.png",
       "description": "Founded in 1970, Doña Jita y Don Néstor started their business in Guadalajara downtown. They are now part of the traditional local food of the city and for anyone who visit the city the visit to the restaurant is a must.",
       "yearFounded": 1970,
       "contact": "Address: Calle Garibaldi 1306, Villaseñor, 44600 Guadalajara, Jal. - Phone: 33 3826-1286",
@@ -20,7 +20,7 @@
 
     {
         "name": "Helados Dolphy",
-        "photo": "dolphy_logo.jpg",
+        "photo": "dolphy_logo.png",
         "description": "Dolphy was created in 1999, sharing with Mexicans when the world prepared to say goodbye to the millennium and welcome a new flavor, but respectful and faithful to tradition. When we started, we were a new brand, but not a newcomer. At Dolphy we already knew about flavor, because among our founders was Adolph B. Horn. A businessman very loved by the people of Guadalajara, creator of our traditional recipe for round ice cream more than fifty years ago.",
         "yearFounded": 1999,
         "contact": "Calle Ignacio Aguirre, Lomas del Nilo, 44820 Guadalajara, Jal. - Phone: 33 3344 8999",
